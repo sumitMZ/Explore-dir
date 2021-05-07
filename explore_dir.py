@@ -14,6 +14,5 @@ def opm(path,bull) :
                 opm(path+'/'+i,bull)
         print()
 dirs =('/'+"home")
-print("\n\t",dirs)
 opm(dirs,"=>")
 
